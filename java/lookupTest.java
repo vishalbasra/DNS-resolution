@@ -65,13 +65,13 @@ public class lookupTest {
                  catch (java.io.IOException e) { e.printStackTrace(); }
       
 
-               // Define slack stuff o- your machineName where this Java program is running from, your Slack web-hook URL
+               // Define slack stuff - 1)  your machineName where this Java program is running from 2)  your Slack web-hook URL
                String machineName = "my-servername-001.mydomain.com";
 
                String requestUrl="https://hooks.slack.com/services/ZZZZZZZZZ/YYYYYYYYY/XXXXXXXXXXXXXXXXXXXXXXXXX";
 
 /* 
-// Had hoped I could've made this dynamic , but I couldn't so this works temporarily
+// Had hoped I could've made this dynamic , but I couldn't right now, so the following code block works, leaving this here for the future
 
                try {
                     String machineName = InetAddress.getLocalHost().getHostName();
