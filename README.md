@@ -1,2 +1,2 @@
 # DNS-resolution
-How to do DNBS resolution!
+How to do DNS resolution!
