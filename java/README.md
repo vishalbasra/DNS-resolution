@@ -1,0 +1,1 @@
+This java program will perform DNS lookups and show an example of catching an exception, namely the **UnknownHost** exception which is the most common DNS related exception in Java, in-case there's something wrond with DNS
